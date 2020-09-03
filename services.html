@@ -15,39 +15,58 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="./index.html"><span class="logo">Dan Jermy</span></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><span class="logo">Dan Jermy</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <footer class="footer bg-primary">
-        <div class="container" style="display: flex; justify-content: space-between;">
+
+    <div class="container mb-4">
+        <div class="service-title-wrapper mb-2">
+            <i class="far fa-file-code services-icons"></i>
+            <span class="web-dev-text">Front-end</span>
+        </div>
+        <span class="web-dev-description">I'm a web developer who builds simple websites using HTML5, CSS, JavaScript and Bootstrap.</span>
+    </div>
+    <div class="container">
+        <div class="service-title-wrapper mb-2">
+            <i class="fas fa-server services-icons"></i>
+            <span class="web-dev-text">Front-end</span>
+        </div>
+        <span class="web-dev-description">I'm a web developer who builds simple websites using HTML5, CSS, JavaScript and Bootstrap.</span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-primary mt-4">
+        <div class="container" style="display: flex; justify-content: center;">
             <span class="text-light">
                 <a class="btn btn-outline-success" href="mailto:danjermy@yahoo.com">
                     <i class="fas fa-envelope mr-2"></i> danjermy@yahoo.com
                 </a>
             </span>
-            <span>Copyright © 2020 | Dan Jermy</span>
         </div>
     </footer>
+    <!-- END Footer -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

@@ -32,3 +32,22 @@
     border: 1px solid var(--warning);
     color: var(--warning);
 }
+
+.services-icons {
+    font-size: 4rem;
+
+}
+
+.web-dev-text {
+    padding-left: 30px;
+    font-size: 3rem;
+}
+
+.service-title-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.web-dev-description {
+    font-size: 1.3rem;
+}
