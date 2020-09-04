@@ -35,7 +35,6 @@
 
 .services-icons {
     font-size: 4rem;
-
 }
 
 .web-dev-text {
@@ -43,11 +42,24 @@
     font-size: 3rem;
 }
 
+.hosting {
+    padding-right: 30px;
+    font-size: 3rem
+}
+
 .service-title-wrapper {
     display: flex;
     align-items: center;
 }
 
+.service-title-wrapper-alt {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
 .web-dev-description {
     font-size: 1.3rem;
+    display: block;
 }
+
